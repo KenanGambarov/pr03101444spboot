@@ -1,0 +1,98 @@
+.messages-info, .messages-warn, .messages-error, .messages-fatal {
+    border: 1px solid;
+    /*margin: 10px 0px;*/
+    padding:3px 4px 4px 4px;
+}
+
+.message-info, .message-error, .message-warn, .message-fatal {
+    border: 1px solid;;
+    margin: 0px 5px;
+    padding:2px 5px;
+}
+
+.messages-info-icon, .messages-warn-icon, .messages-error-icon, .messages-fatal-icon,
+.message-info-icon, .message-warn-icon, .message-error-icon, .message-fatal-icon {
+    background: url('../images/messages.png') no-repeat;
+    display:block;
+    float:left;
+    margin:0;
+    padding:0;
+    position: relative;
+}
+
+.messages-info-icon, .messages-warn-icon, .messages-error-icon, .messages-fatal-icon {
+    height:24px;
+    width:24px;
+    /*margin-top:-4px;*/
+}
+
+.message-info-icon, .message-warn-icon, .message-error-icon, .message-fatal-icon {
+    height:16px;
+    width:16px;
+}
+
+.messages-info-summary, .messages-warn-summary, .messages-error-summary, .messages-fatal-summary, 
+.message-info-summary, .message-warn-summary, .message-error-summary, .message-fatal-summary {
+    /*height: 24px;*/
+    /*margin-bottom: 20px;*/
+    font-weight:bold;
+    float: right;
+}
+
+.messages-info-detail, .messages-warn-detail, .messages-error-detail, .messages-fatal-detail,
+.message-info-detail, .message-warn-detail, .message-error-detail, .message-fatal-detail {
+    margin-left:5px;
+}
+
+.messages-info, .message-info {
+    color: #3a87ad;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.messages-warn, .message-warn {
+    color: #c09853;
+    background-color: #fcf8e3;
+    border-color: #fbeed5;
+}
+
+.messages-error, .message-error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+.messages-fatal, .message-fatal {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+.messages ul {
+    margin: 0 25px;
+    padding:0;
+    list-style-type:none;
+}
+
+.messages.messages-noicon ul {
+    margin: 0 25px 0 0;
+}
+
+.message-icon-only {
+    width:16px;
+    height:16px
+}
+
+.messages-info-icon {background-position: 0px -316px;}
+.messages-warn-icon {background-position: 0px -448px;}
+.messages-error-icon {background-position: 0px -52px;}
+.messages-fatal-icon {background-position: 0px -184px;}
+.message-info-icon {background-position: 0px -360px;}
+.message-warn-icon {background-position: 0px -492px;}
+.message-error-icon {background-position: 0px -96px;}
+.message-fatal-icon {background-position: 0px -228px;}
+
+.messages .messages-close {
+    float:right;
+    cursor: pointer;
+}
